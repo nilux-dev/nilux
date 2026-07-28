@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://nilux.dev/docs
+    about: Installation, configuration, tools, MCP, billing.
+  - name: Billing or account question
+    url: https://nilux.dev/dashboard
+    about: Balance, top-ups and usage live in your dashboard.
+  - name: Security vulnerability
+    url: https://github.com/nilux-dev/nilux/blob/main/SECURITY.md
+    about: Please report privately, not as an issue.

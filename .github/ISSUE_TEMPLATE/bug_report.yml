@@ -1,0 +1,49 @@
+name: Bug report
+description: Something Nilux did that it should not have
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before filing: please check the [docs](https://nilux.dev/docs) and existing issues.
+        For a security problem, do **not** open an issue — see SECURITY.md.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you asked it to do, and what it did instead.
+      placeholder: I asked it to rename a function and it edited only one of the call sites.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to reproduce
+      description: The smallest sequence that shows it. A transcript excerpt helps more than a description.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Nilux version
+      description: Output of `nilux --version`
+      placeholder: 1.0.10
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options: [macOS, Linux, Windows]
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Model
+      description: Standard or Pro, if it matters.
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Terminal, shell, whether it reproduces every time.
