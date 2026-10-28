@@ -1,6 +1,6 @@
 # Nilux AI
 
-An AI engineer for your terminal, and a desktop app for Mac. Nilux reads, writes, runs, and
+An AI engineer in your terminal and on your desktop. Nilux reads, writes, runs, and
 remembers — across sessions — so you can hand it the work and stay in control.
 
 ```bash
@@ -12,7 +12,7 @@ Requires Node.js 20 or newer. Works on macOS, Linux, and Windows; on Windows it 
 [Git for Windows](https://git-scm.com/downloads/win), because it runs commands in the Git Bash that
 comes with it.
 
-Prefer an app? **[Download Nilux for Mac](https://nilux.dev/download)**.
+Prefer an app? **[Download the desktop app](https://nilux.dev/download)**.
 
 **[Docs](https://nilux.dev/docs)** · **[Quickstart](https://nilux.dev/docs/quickstart)** ·
 **[Pricing](https://nilux.dev/pricing)** · **[Changelog](https://nilux.dev/changelog)** ·
