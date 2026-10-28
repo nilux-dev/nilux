@@ -8,7 +8,9 @@ npm install -g @nilux-ai/code
 nilux
 ```
 
-Requires Node.js 20 or newer. Works on macOS, Linux, and Windows.
+Requires Node.js 20 or newer. Works on macOS, Linux, and Windows; on Windows it also needs
+[Git for Windows](https://git-scm.com/downloads/win), because it runs commands in the Git Bash that
+comes with it.
 
 Prefer an app? **[Download Nilux for Mac](https://nilux.dev/download)**.
 
@@ -19,8 +21,9 @@ Prefer an app? **[Download Nilux for Mac](https://nilux.dev/download)**.
 ## About this repository
 
 The source is not published here. This repository is where the project is tracked publicly:
-releases, documentation links, and **[issues](../../issues)** — the place to report a bug or ask
-for something. The agent itself runs on our servers; the CLI and the desktop app you install are
+documentation links and **[issues](../../issues)** — the place to report a bug or ask for
+something. Release notes are on the site: [CLI](https://nilux.dev/changelog/terminal) and
+[desktop app](https://nilux.dev/changelog/desktop). The agent itself runs on our servers; the CLI and the desktop app you install are
 the clients.
 
 ## What it does

@@ -16,6 +16,7 @@ once it is fixed, say so and we will name you.
 ## What is in scope
 
 - The `@nilux-ai/code` CLI client — anything it does on your machine that it should not.
+- The Nilux desktop app for Mac — the same, for the app and its updates.
 - The API at `api.nilux.dev` — authentication, authorisation, data belonging to other accounts.
 - The website and dashboard at `nilux.dev`.
 
