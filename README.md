@@ -1,7 +1,7 @@
 # Nilux AI
 
-An AI engineer that lives in your terminal. Nilux reads, writes, runs, and remembers — across
-sessions — so you can stay on the command line and let it do the work.
+An AI engineer for your terminal, and a desktop app for Mac. Nilux reads, writes, runs, and
+remembers — across sessions — so you can hand it the work and stay in control.
 
 ```bash
 npm install -g @nilux-ai/code
@@ -10,14 +10,18 @@ nilux
 
 Requires Node.js 20 or newer. Works on macOS, Linux, and Windows.
 
+Prefer an app? **[Download Nilux for Mac](https://nilux.dev/download)**.
+
 **[Docs](https://nilux.dev/docs)** · **[Quickstart](https://nilux.dev/docs/quickstart)** ·
-**[Pricing](https://nilux.dev/pricing)** · **[Changelog](https://nilux.dev/changelog)**
+**[Pricing](https://nilux.dev/pricing)** · **[Changelog](https://nilux.dev/changelog)** ·
+**[Download](https://nilux.dev/download)**
 
 ## About this repository
 
 The source is not published here. This repository is where the project is tracked publicly:
 releases, documentation links, and **[issues](../../issues)** — the place to report a bug or ask
-for something. The agent itself runs on our servers; the CLI you install is the client.
+for something. The agent itself runs on our servers; the CLI and the desktop app you install are
+the clients.
 
 ## What it does
 
@@ -29,8 +33,9 @@ going — the same loop you would run by hand, without the typing.
   every call site rather than the one file you had open.
 - **Asks before it acts.** Every file edit and every command is shown first. Four approval modes,
   from confirm-everything to hands-free — `Shift+Tab` cycles between them mid-session.
-- **Remembers your project.** Conventions, decisions and the shape of the codebase survive between
-  sessions, so you stop re-explaining the same context every morning.
+- **Remembers your project.** Decisions, the corrections you give it and the context behind the
+  work are kept as plain notes on your machine, per project, so you stop re-explaining the same
+  context every morning.
 - **Delegates.** For wide work it spawns subagents that explore in their own context and report
   back, instead of filling yours with search results.
 - **Connects to your tools.** Any Model Context Protocol server — databases, APIs, cloud consoles —
@@ -38,16 +43,12 @@ going — the same loop you would run by hand, without the typing.
 
 ## What it costs
 
-Pay only for the tokens you use. No seat, no subscription, no minimum.
-
-| Model | Input | Output | Context |
-|-------|-------|--------|---------|
-| Nilux Standard | $0.28 / 1M tokens | $0.56 / 1M tokens | 1M |
-| Nilux Pro | $0.87 / 1M tokens | $1.74 / 1M tokens | 1M |
+Pay only for the tokens you use. No seat, no subscription, no monthly minimum, and new accounts
+start with free credit.
 
 Repeated context is billed at a small fraction of the input rate, which is most of a long coding
-session. Check your balance any time with `/balance`, or see live rates and a cost calculator at
-[nilux.dev/pricing](https://nilux.dev/pricing).
+session. The current rates for both models, the peak hours and a cost calculator are at
+[nilux.dev/pricing](https://nilux.dev/pricing). Check your balance any time with `/balance`.
 
 ## Handy commands
 

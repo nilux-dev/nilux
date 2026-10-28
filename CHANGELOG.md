@@ -1,7 +1,8 @@
 # Changelog
 
-Every release of the Nilux AI CLI. The same list, formatted for reading, lives at
-https://nilux.dev/changelog
+Release notes now live on the site: https://nilux.dev/changelog/terminal for the CLI and
+https://nilux.dev/changelog/desktop for the desktop app. This file stops at 1.0.10 and keeps
+the history up to it.
 
 Releases before 1.0.10 went straight to testers rather than to a registry, which is why they are
 dated here but not on npm. `@nilux-ai/code` starts at 1.0.10.
