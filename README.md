@@ -8,7 +8,7 @@ npm install -g @nilux-ai/code
 nilux
 ```
 
-Requires Node.js 18 or newer. Works on macOS, Linux, and Windows.
+Requires Node.js 20 or newer. Works on macOS, Linux, and Windows.
 
 **[Docs](https://nilux.dev/docs)** · **[Quickstart](https://nilux.dev/docs/quickstart)** ·
 **[Pricing](https://nilux.dev/pricing)** · **[Changelog](https://nilux.dev/changelog)**
