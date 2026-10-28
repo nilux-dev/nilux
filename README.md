@@ -29,13 +29,14 @@ the clients.
 ## What it does
 
 Describe a task in plain language. Nilux finds the relevant files itself, proposes a change, shows
-you the diff, and applies it once you approve. It runs commands, reads their output, and keeps
+you the diff, and in the default mode applies it once you approve. It runs commands, reads their output, and keeps
 going — the same loop you would run by hand, without the typing.
 
 - **Works across the whole project.** It searches and reads before it edits, so a rename reaches
   every call site rather than the one file you had open.
-- **Asks before it acts.** Every file edit and every command is shown first. Four approval modes,
-  from confirm-everything to hands-free — `Shift+Tab` cycles between them mid-session.
+- **You decide what needs approval.** In the default mode every file edit and every command is
+  shown first. Four approval modes, from confirm-everything to hands-free — `Shift+Tab` cycles
+  between them mid-session.
 - **Remembers your project.** Decisions, the corrections you give it and the context behind the
   work are kept as plain notes on your machine, per project, so you stop re-explaining the same
   context every morning.
